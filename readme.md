@@ -9,7 +9,7 @@ You can use the LanguageTools with a [firefox-plugin].
 This is a Dockerfile to get the languagetools running on a system without java.
 
 [LanguageTool]: https://www.languagetool.org/
-[firefox-plugin]: https://addons.mozilla.org/firefox/addon/languagetoolfx/
+[firefox-plugin]: https://addons.mozilla.org/firefox/addon/languagetool
 
 # Usage
 
@@ -43,7 +43,7 @@ To support [ngrams] you need an additional volume or directory mounted to the
 
     docker run ... -v /path/to/ngrams:/ngrams ...
 
-[ngrams]: http://wiki.languagetool.org/finding-errors-using-n-gram-data
+[ngrams]: https://dev.languagetool.org/finding-errors-using-n-gram-data
 
 
 Download English ngrams with the commands:
